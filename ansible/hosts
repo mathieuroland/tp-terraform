@@ -1,4 +1,7 @@
+[nginx]
+reverse-1 ansible_user=root ansible_host=10.10.0.104 ansible_port=11344
+
 [app]
-app-1 ansible_user=root ansible_host=<10.10.0.104> ansible_port=<21442>
-app-2 ansible_user=root ansible_host=<10.10.0.104> ansible_port=<31442>
+app-1 ansible_user=root ansible_host=10.10.0.104 ansible_port=21344
+app-2 ansible_user=root ansible_host=10.10.0.104 ansible_port=3444
 
